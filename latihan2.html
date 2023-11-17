@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    let a=[17, 18, 30, 76, 98];
+    let b=[99, 16, 8,99,22];
+function simpleArraySum(a,b) {
+    let score=[0,0]
+    const k = a.length;
+    for(let n=0;n < k; n++){
+        
+        if(a[n]>b[n]){
+            score[0]++;
+        } else if(a[n]<b[n]){
+            score[1]++;
+        }else{console.log("kosong")
+        }
+    } 
+return score;
+} 
+
+
+console.log("hasil :",simpleArraySum(a,b));
+</script>
+
+
+
+</body>
+</html>

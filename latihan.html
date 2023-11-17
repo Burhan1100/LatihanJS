@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+    
+    function simpleArraySum(... data) {
+        // Write your code here
+        
+        let ar=0 ;
+        for(let n =0;n < data.length; n++){
+        let sum = data[n];
+        ar += sum;
+        }
+       
+        document.writeln(`<p> array : ${data}</p>`);
+        document.writeln(`<p>Total : ${ar}</p>`);
+    } 
+
+    simpleArraySum(1 ,2 ,3 ,4, 10, 11);
+    
+
+    </script>
+
+</body>
+</html>
